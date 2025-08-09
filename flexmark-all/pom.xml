@@ -7,7 +7,7 @@
     <parent>
         <groupId>com.vladsch.flexmark</groupId>
         <artifactId>flexmark-java</artifactId>
-        <version>0.64.8</version>
+        <version>0.64.14-SNAPSHOT</version>
     </parent>
 
     <artifactId>flexmark-all</artifactId>
@@ -171,6 +171,11 @@
         <dependency>
             <groupId>com.vladsch.flexmark</groupId>
             <artifactId>flexmark-ext-youtube-embedded</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.vladsch.flexmark</groupId>
+            <artifactId>flexmark-ext-plantuml</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
